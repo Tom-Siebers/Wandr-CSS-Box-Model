@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  font: normal 16px Roboto, sans-serif;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #888888;
+}
+
+h1 + h2 {
+  margin-top: 8px;
+}
+
+h1 + p,
+h2 + p {
+  margin-top: 24px;
+}
+
+.topnav {
+  height: 64px;
+  border-bottom: 1px solid #387c6d;
+}
+
+.topnav-wandr {
+  color: #000;
+  font-weight: 500;
+  font-size: 40px;
+  position: relative;
+  top: 8px;
+  margin-left: 32px;
+}
+
+.topnav a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav-right {
+  float: right;
+  position: relative;
+  top: 14px;
+  margin-right: 32px;
+}
+
+.topnav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px;
+  margin-right: 24px;
+}
+
+.topnav li:last-child {
+  margin-right: 0;
+}
+
+.topnav-right a {
+  color: #888888;
+}
+
+.topnav-right a:hover {
+  color: #444444;
+}
+
+.topnav-right a.active {
+  color: #000;
+}
+
+.hero-africa,
+.hero-antarctica,
+.hero-asia {
+  width: 70%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #e9896a;
+  border-radius: 8px;
+  padding: 32px;
+  margin: 32px auto;
+}
+
+.hero-antarctica {
+  background-image: url(images/antarctica.jpg);
+}
+
+.hero-africa {
+  background-image: url(images/africa.jpg);
+}
+
+.hero-asia {
+  background-image: url(images/asia.jpg);
+}
+
+.box-1 {
+  width: 70%;
+  border: 1px solid #e9896a;
+  border-radius: 8px;
+  padding: 32px;
+  margin: 32px auto 0 auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 9px;
+}
